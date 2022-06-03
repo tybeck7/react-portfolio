@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import hahe from'./images/handyhelper.png'
 import holand from'./images/horiseon-landingpage.png'
+import getBaked from './images/getBaked.png'
 import me from './images/me.jpg'
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
     <a href="https://tybeck7.github.io/horiseon-refactured/"><img src={holand} style={{width: 190}} onclick="onClick(this)" alt="horisoen project landingpage" /></a>
     <a href="https://tybeck7.github.io/my-roulette/#"><img src={"./assets/images/roulette.png"} style={{width: 190}} onclick="onClick(this)" alt="project 2 landingpage" /></a>
     <a href="https://boiling-gorge-57801.herokuapp.com/"><img src={hahe} style={{width: 190}} onclick="onClick(this)" alt="project 2 landingpage" /></a>
+    <a href="https://afternoon-fjord-21260.herokuapp.com/"><img src="./assets/images/getBaked.png" style="width:190px" onclick="onClick(this)" alt="project 4 landingpage"></a>
 
   </div>
   {/*contact section*/}
